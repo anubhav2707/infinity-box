@@ -1,23 +1,57 @@
 @import "~antd/dist/antd.css";
 
+.wrapper {
+  margin: 2rem auto;
+  width: 80%;
+}
+
 .box_wrapper {
   display: flex;
-  border: 1px solid lightgrey;
+  flex-direction: row;
+  justify-content: center;
+  border: 2px solid cornflowerblue;
+  background: #eef;
   border-radius: 10px;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
 }
 
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
+  gap: 15px;
 }
 
 .headings {
-  font-size: 15px;
-  font-weight: 3000;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 500;
+  inline-size: 100%;
+  overflow: hidden;
 }
 
 .details {
-  font-size: 10px;
+  font-size: 0.8rem;
   color: grey;
+  line-height: 0.9rem;
+}
+.prices {
+  font-weight: 600;
+  letter-spacing: 0;
+  color: cornflowerblue;
+}
+
+.image {
+  display: block;
+  max-height: 150px;
+  max-width: 100px;
+  border-radius: 20%;
+}
+
+.search_box {
+}
+
+.searchSection {
+  margin: 2rem auto;
 }
